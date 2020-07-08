@@ -14,4 +14,6 @@ This library design is based on the CRISPR-Cas9 approach published in Guo et al.
 When executed, the python script guide_donor_lib.py will ask for the gene name and then it will download its sequence from the SGD database (www.yeastgenome.org). Next, it will ask which region of the gene we want to generate the different guide and donor sequences, how many residues to delete in each mutant, and the size of the sliding window between each mutant. 
 The output will be an excel file containing the guide and donor sequences for all the different deletions in the selected gene. It also indicates the position of the NGG sequence closest to the center of the region to deleted. If there is no NGG sequence close enough (less than 11bp away by default) it won't retrive any guide sequence.
 
-This script requieres [Biopython](https://biopython.org/) and [pandas](https://pandas.pydata.org/) installed and only works for *S. cerevisiae* genes.
+This script requieres [Biopython](https://biopython.org/) and [pandas](https://pandas.pydata.org/) installed. It only works for *S. cerevisiae* genes but I can adapt it to other organisms if somebody is interested. 
+
+Any feedback is welcome!
