@@ -80,7 +80,7 @@ for i in gd_df.index:
         
 gd_df['donor'] = gd_df[['donor_fw', 'donor_rv']].apply(lambda x: ''.join(x), axis=1)
 
-gd_df.to_excel('./' + gene_name + '_guide+donor.xlsx')
+gd_df.to_excel(gene_name + '_guide+donor.xlsx')
 
 total = gd_df.count().loc['del_region']
 
