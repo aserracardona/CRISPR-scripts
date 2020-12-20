@@ -21,6 +21,16 @@ For now, it only works for *S. cerevisiae* genes.
 This script requieres [Biopython](https://biopython.org/) and [pandas](https://pandas.pydata.org/) installed. 
 
 ## Usage
-python3 guide_donor_lib.py gene_name [-h] [-s START] [-e END] [-d DELETION] [-i INTERVAL]
+python3 guide_donor_lib.py gene [-h] [-s START] [-e END] [-d DELETION] [-i INTERVAL]
+
+positional arguments:
+  gene         Gene name from S. cerevisiae
+
+optional arguments:
+  -h, --help   shows help message and exits
+  -s START     Position of the first residue to delete in the tiling array. Second residue by default
+  -e END       Position of the last residue to delete in the tiling array. Last amino acid of the protein by default
+  -d DELETION  Number of residues to delete in each mutant. 20 by default
+  -i INTERVAL  Interval of residues between on deletion and the next. 5 by default
 
 Any feedback is welcome!
