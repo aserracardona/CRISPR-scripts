@@ -29,11 +29,11 @@ positional arguments:
 
 optional arguments:
 
-  -h, --help   shows help message and exits
+  -h, --help    shows help message and exits
   
-  -s START     Position of the first residue to delete in the tiling array. Second residue by default
+  -s START    Position of the first residue to delete in the tiling array. Second residue by default
   
-  -e END       Position of the last residue to delete in the tiling array. Last amino acid of the protein by default
+  -e END      Position of the last residue to delete in the tiling array. Last amino acid of the protein by default
   
   -d DELETION  Number of residues to delete in each mutant. 20 by default
   
