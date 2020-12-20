@@ -21,6 +21,6 @@ For now, it only works for *S. cerevisiae* genes.
 This script requieres [Biopython](https://biopython.org/) and [pandas](https://pandas.pydata.org/) installed. 
 
 ## Usage
-python3 guide_donor_lib.py gene_name '[-h]' '[-s START]' '[-e END]' '[-d DELETION]' '[-i INTERVAL]'
+python3 guide_donor_lib.py gene_name [-h] [-s START] [-e END] [-d DELETION] [-i INTERVAL]
 
 Any feedback is welcome!
